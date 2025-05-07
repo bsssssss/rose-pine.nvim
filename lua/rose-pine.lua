@@ -781,7 +781,7 @@ local function set_highlights()
 		MasonMutedBlockBold = { fg = palette.iris },
 		MasonHighlightBlock = { fg = palette.iris, bg = palette.iris, blend = 15 },
 		MasonHighlightBlockBold = { fg = palette.iris, bg = palette.iris, blend = 15 },
-		MasonHeader = { fg = "pine" },
+		MasonHeader = { fg = palette.pine },
 
 		-- echasnovski/mini.nvim
 		MiniAnimateCursor = { reverse = true, nocombine = true },
