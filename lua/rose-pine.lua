@@ -681,7 +681,7 @@ local function set_highlights()
 		FzfLuaHeaderText = { fg = palette.love },
 		FzfLuaNormal = { link = "NormalFloat" },
 		FzfLuaTitle = { link = "FloatTitle" },
-		FzfLuaBackdrop = { fg = palette.base },
+		FzfLuaBackdrop = { fg = "none" },
 
 		-- rcarriga/nvim-notify
 		NotifyBackground = { link = "NormalFloat" },
