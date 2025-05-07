@@ -80,7 +80,7 @@ local function set_highlights()
 	local default_highlights = {
 		ColorColumn = { bg = palette.surface },
 		Conceal = { bg = "NONE" },
-		CurSearch = { fg = "iris", bg = "iris", blend = 33, inherit = false },
+		CurSearch = { fg = palette.iris, bg = palette.iris, blend = 33, inherit = false },
 		Cursor = { fg = palette.text, bg = palette.highlight_high },
 		CursorColumn = { bg = palette.overlay },
 		-- CursorIM = {},
@@ -126,7 +126,7 @@ local function set_highlights()
 		RedrawDebugClear = { fg = palette.base, bg = palette.gold },
 		RedrawDebugComposed = { fg = palette.base, bg = palette.pine },
 		RedrawDebugRecompose = { fg = palette.base, bg = palette.love },
-		Search = { fg = "iris", bg = "iris", blend = 12 },
+		Search = { fg = palette.iris, bg = palette.iris, blend = 12 },
 		SignColumn = { fg = palette.text, bg = "NONE" },
 		SpecialKey = { fg = palette.foam },
 		SpellBad = { sp = palette.subtle, undercurl = true },
@@ -531,9 +531,9 @@ local function set_highlights()
 		-- folke/which-key.nvim
 		WhichKey = { fg = palette.iris },
 		WhichKeyBorder = make_border(),
-		WhichKeyDesc = { fg = "muted" },
+		WhichKeyDesc = { fg = palette.muted },
 		WhichKeyFloat = { bg = groups.panel },
-		WhichKeyGroup = { fg = "pine" },
+		WhichKeyGroup = { fg = palette.pine },
 		WhichKeyIcon = { fg = palette.pine },
 		WhichKeyIconAzure = { fg = palette.pine },
 		WhichKeyIconBlue = { fg = palette.pine },
@@ -547,7 +547,7 @@ local function set_highlights()
 		WhichKeyNormal = { link = "NormalFloat" },
 		WhichKeySeparator = { fg = palette.subtle },
 		WhichKeyTitle = { link = "FloatTitle" },
-		WhichKeyValue = { fg = "text" },
+		WhichKeyValue = { fg = palette.text },
 
 		-- lukas-reineke/indent-blankline.nvim
 		IblIndent = { fg = palette.overlay },
@@ -767,7 +767,7 @@ local function set_highlights()
 
 		-- folke/noice.nvim
 		NoiceCursor = { fg = palette.highlight_high, bg = palette.text },
-		NoiceVirtualText = { fg = "iris" },
+		NoiceVirtualText = { fg = palette.iris },
 
 		-- folke/trouble.nvim
 		TroubleText = { fg = palette.subtle },
@@ -775,12 +775,12 @@ local function set_highlights()
 		TroubleNormal = { fg = palette.text, bg = groups.panel },
 
 		-- mason.nvim
-		MasonMuted = { fg = "muted" },
-		MasonHighlight = { fg = "gold" },
-		MasonMutedBlock = { fg = "iris" },
-		MasonMutedBlockBold = { fg = "iris" },
-		MasonHighlightBlock = { fg = "iris", bg = "iris", blend = 15 },
-		MasonHighlightBlockBold = { fg = "iris", bg = "iris", blend = 15 },
+		MasonMuted = { fg = palette.muted },
+		MasonHighlight = { fg = palette.gold },
+		MasonMutedBlock = { fg = palette.iris },
+		MasonMutedBlockBold = { fg = palette.iris },
+		MasonHighlightBlock = { fg = palette.iris, bg = palette.iris, blend = 15 },
+		MasonHighlightBlockBold = { fg = palette.iris, bg = palette.iris, blend = 15 },
 		MasonHeader = { fg = "pine" },
 
 		-- echasnovski/mini.nvim
@@ -1036,10 +1036,10 @@ local function set_highlights()
 
 		SnacksPickerMatch = { fg = palette.rose, bold = styles.bold },
 
-		SnacksDashboardDesc = { fg = "lagoon" },
-		SnacksDashboardKey = { fg = "foam" },
-		SnacksDashboardTitle = { fg = "pine" },
-		SnacksDashboardIcon = { fg = "pine" },
+		SnacksDashboardDesc = { fg = palette.lagoon },
+		SnacksDashboardKey = { fg = palette.foam },
+		SnacksDashboardTitle = { fg = palette.pine },
+		SnacksDashboardIcon = { fg = palette.pine },
 
 		-- justinmk/vim-sneak
 		Sneak = { fg = palette.base, bg = palette.love },
