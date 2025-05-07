@@ -109,7 +109,7 @@ local function set_highlights()
 		MoreMsg = { fg = palette.iris },
 		NonText = { fg = palette.muted },
 		Normal = { fg = palette.text, bg = palette.base },
-		NormalFloat = { bg = groups.panel },
+		NormalFloat = { bg = palette.base },
 		NormalNC = { fg = palette.text, bg = config.options.dim_inactive_windows and palette._nc or palette.base },
 		NvimInternalError = { link = "ErrorMsg" },
 		Pmenu = { fg = palette.subtle, bg = groups.panel },
