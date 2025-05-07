@@ -80,7 +80,7 @@ local function set_highlights()
 	local default_highlights = {
 		ColorColumn = { bg = palette.surface },
 		Conceal = { bg = "NONE" },
-		CurSearch = { fg = palette.iris, bg = palette.iris, blend = 33, inherit = false },
+		CurSearch = { fg = palette.iris, bg = palette.iris, blend = 33 },
 		Cursor = { fg = palette.text, bg = palette.highlight_high },
 		CursorColumn = { bg = palette.overlay },
 		-- CursorIM = {},
