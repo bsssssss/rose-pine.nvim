@@ -334,8 +334,8 @@ local function set_highlights()
 		["@keyword.debug"] = { fg = palette.rose },
 		["@keyword.exception"] = { fg = palette.pine },
 
-		["@keyword.conditional"] = { fg = palette.pine },
-		["@keyword.conditional.ternary"] = { fg = palette.pine },
+		["@keyword.conditional"] = { fg = palette.prune },
+		["@keyword.conditional.ternary"] = { fg = palette.prune },
 
 		["@keyword.directive"] = { fg = palette.iris },
 		["@keyword.directive.define"] = { fg = palette.iris },
