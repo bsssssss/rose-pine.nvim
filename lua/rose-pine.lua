@@ -204,7 +204,7 @@ local function set_highlights()
 		LspInlayHint = { fg = palette.muted, bg = palette.muted, blend = 10 },
 		LspReferenceRead = { bg = palette.highlight_low },
 		LspReferenceText = { bg = palette.highlight_low },
-		LspReferenceWrite = { bg = palette.highlight_med },
+		LspReferenceWrite = { bg = palette.subtle },
 		Macro = { fg = palette.iris },
 		Number = { fg = palette.gold },
 		Operator = { fg = palette.subtle },
