@@ -8,6 +8,7 @@ local variants = {
 		muted   = "#5e5e5e",
 		subtle  = "#999999",
 		text    = "#DfDeD0",
+		prune   = "#717BC7",
 		iris    = "#c4a7e7",
 		love    = "#eb6f92",
 		gold    = "#D7B175",
