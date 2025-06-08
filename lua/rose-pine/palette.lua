@@ -1,29 +1,31 @@
 local options = require("rose-pine.config").options
 local variants = {
 	main = {
-		_nc = "#16141f",
-		base = "#191724",
-		surface = "#2f2f2f",
-		overlay = "#404040",
-		muted = "#5e5e5e",
-		subtle = "#999999",
-		text = "#EEEEEE",
-		love = "#eb6f92",
-		gold = "#f6c177",
-		rose = "#ebbcba",
-		pine = "#31748f",
-		foam = "#9ccfd8",
-		iris = "#c4a7e7",
-		leaf = "#95b1ac",
-		highlight_low = "#323232",
-		highlight_med = "#454545",
+		-- stylua: ignore-start
+		base      = "#222222",
+		surface   = "#2f2f2f",
+		overlay   = "#404040",
+		muted     = "#5e5e5e",
+		subtle    = "#999999",
+		text      = "#EEEEEE",
+		iris      = "#c4a7e7",
+		love      = "#eb6f92",
+		gold      = "#D7B175",
+		rose      = "#ebbcba",
+		pine      = "#31748f",
+		lagoon    = "#75A6C7",
+		foam      = "#9ccfd8",
+		mint      = "#ACE697",
+		leaf      = "#95b1ac",
+		sand      = "#D1C29F",
+
+		highlight_low  = "#323232",
+		highlight_med  = "#454545",
 		highlight_high = "#535353",
+
 		none = "NONE",
-		mint = "#ACE697",
-		sand = "#D1C29F",
-		lagoon = "#75A6C7",
-		turquoise = "#68DFC9",
-		tea = "#ebbbb9",
+		_nc  = "#222222",
+		-- stylua: ignore-end
 	},
 	moon = {
 		_nc = "#1f1d30",
@@ -47,8 +49,6 @@ local variants = {
 		mint = "#ACE697",
 		sand = "#D1C29F",
 		lagoon = "#75A6C7",
-		turquoise = "#68DFC9",
-		tea = "#ebbbb9",
 		none = "NONE",
 	},
 	dawn = {
@@ -73,8 +73,6 @@ local variants = {
 		mint = "#ACE697",
 		sand = "#D1C29F",
 		lagoon = "#75A6C7",
-		turquoise = "#68DFC9",
-		tea = "#ebbbb9",
 	},
 }
 
